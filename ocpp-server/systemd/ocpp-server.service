@@ -1,0 +1,12 @@
+[Unit]
+Description=OCPP Server
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+WorkingDirectory=/opt/ocpp-server
+ExecStart=/usr/bin/python3 src/main.py
+
+[Install]
+WantedBy=multi-user.target

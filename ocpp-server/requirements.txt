@@ -1,0 +1,4 @@
+ocpp==0.18.1
+aiomqtt
+websockets
+pytest
