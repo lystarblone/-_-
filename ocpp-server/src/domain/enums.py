@@ -31,6 +31,7 @@ class MqttTopics(Enum):
     SAFETY_INPUT_EMERGENCY = "/safety/input/{id}/EMERGENCY"
     SAFETY_INPUT_FLOODING = "/safety/input/{id}/FLOODING"
     SAFETY_INPUT_FIRE = "/safety/input/{id}/FIRE"
+    CHARGE_POINT_DATA = "/chargepoint/data"
 
 class MqttQos(Enum):
     AT_MOST_ONCE = 0
