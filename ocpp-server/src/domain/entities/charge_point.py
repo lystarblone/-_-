@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from src.domain.enums import CpStatus
-from src.domain.entities.session import Session
 from datetime import datetime
+from typing import List
 
 @dataclass
 class ChargePoint:
@@ -10,4 +10,4 @@ class ChargePoint:
     model: str
     last_seen: datetime
     status: CpStatus
-    sessions: list[Session]
+    sessions: List[str]
