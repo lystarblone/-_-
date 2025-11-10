@@ -1,5 +1,3 @@
-ocpp
-aiomqtt
-websockets
-pytest
-pytest-asyncio
+aiomqtt==2.4.0
+ocpp==2.0.0
+websockets==10.0
